@@ -1,7 +1,12 @@
 {
   "name": "claudemod",
-  "owner": { "name": "G3RWW", "url": "https://github.com/G3RWW" },
-  "metadata": { "description": "savvy-progress (with the running model shown in the progress bar) and savvy-flow." },
+  "owner": {
+    "name": "G3RWW",
+    "url": "https://github.com/G3RWW"
+  },
+  "metadata": {
+    "description": "savvy-progress (with the running model shown in the progress bar), savvy-flow, and agent-tree."
+  },
   "plugins": [
     {
       "name": "savvy-progress",
@@ -16,6 +21,13 @@
       "description": "Skill: plan, delegate to tiered worker subagents, review.",
       "version": "1.2.0",
       "category": "skill"
+    },
+    {
+      "name": "agent-tree",
+      "source": "./plugins/agent-tree",
+      "description": "Mod: one side pane with the savvy-progress agents panel on top of the filetree file tree. Needs savvy-progress and filetree.",
+      "version": "0.1.0",
+      "category": "mod"
     }
   ]
 }

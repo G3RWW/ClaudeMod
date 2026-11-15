@@ -1,0 +1,14 @@
+{
+  "name": "agent-tree",
+  "version": "0.1.0",
+  "description": "One side pane: the savvy-progress agents panel on top of the filetree file tree.",
+  "author": {
+    "name": "G3RWW",
+    "url": "https://github.com/G3RWW"
+  },
+  "types": "./types/index.d.ts",
+  "dependencies": [
+    "savvy-progress"
+  ],
+  "license": "MIT"
+}
