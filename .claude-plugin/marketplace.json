@@ -1,14 +1,21 @@
 {
   "name": "claudemod",
   "owner": { "name": "G3RWW", "url": "https://github.com/G3RWW" },
-  "metadata": { "description": "savvy-progress with the running model shown in the progress bar." },
+  "metadata": { "description": "savvy-progress (with the running model shown in the progress bar) and savvy-flow." },
   "plugins": [
     {
       "name": "savvy-progress",
-      "source": "./",
-      "description": "Progress bar above the prompt that names the model each running agent uses, plus a live agents panel (/agents-info). Works with any subagent, including auto-model-router workers.",
+      "source": "./plugins/savvy-progress",
+      "description": "Mod: progress bar above the prompt that names the model each running agent uses, plus a live agents panel (/agents-info). Works with any subagent, including auto-model-router workers.",
       "version": "1.2.1-local.1",
       "category": "mod"
+    },
+    {
+      "name": "savvy-flow",
+      "source": "./plugins/savvy-flow",
+      "description": "Skill: plan, delegate to tiered worker subagents, review.",
+      "version": "1.2.0",
+      "category": "skill"
     }
   ]
 }
